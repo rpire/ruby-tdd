@@ -26,7 +26,7 @@ RSpec.describe Solver do
 
   describe '#reverse' do
     it 'Reverses a string' do
-      @solver.reverse('hello').shoud eql 'olleH'
+      @solver.reverse('Hello').should eql 'olleH'
     end
 
     it 'Reverses numerical input' do
