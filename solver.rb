@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # rubocop:disable Naming
-# Class comment so rubocop is happy
+# Solver class meant to execute factorials, reverse string and play fizzbuzz
 class Solver
   def factorial(n)
     if !n.is_a? Integer
