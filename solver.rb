@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # rubocop:disable Naming
 # Solver class meant to execute factorials, reverse string and play fizzbuzz
 class Solver

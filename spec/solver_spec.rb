@@ -1,6 +1,3 @@
-# frozen_string_literal: true
-
-# rubocop:disable Metrics
 require './solver'
 require 'rspec'
 
@@ -55,4 +52,3 @@ RSpec.describe Solver do
     end
   end
 end
-# rubocop:enable Metrics
