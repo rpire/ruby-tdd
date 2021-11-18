@@ -1,4 +1,7 @@
-require './solver.rb'
+# frozen_string_literal: true
+
+# rubocop:disable Metrics
+require './solver'
 require 'rspec'
 
 RSpec.describe Solver do
@@ -30,7 +33,7 @@ RSpec.describe Solver do
     end
 
     it 'Reverses numerical input' do
-      @solver.reverse(12345).should eql '54321'
+      @solver.reverse(12_345).should eql '54321'
     end
   end
 
@@ -52,3 +55,4 @@ RSpec.describe Solver do
     end
   end
 end
+# rubocop:enable Metrics
